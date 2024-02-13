@@ -19,7 +19,7 @@
                         </a>
                     </div>
                     <!-- extra nav -->
-                    <div class="extra-nav">
+                    {{-- <div class="extra-nav">
                         <div class="extra-cell">
                             <div class="video-wraper">
                                 <div class="video-play">
@@ -29,7 +29,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <!-- nav toggle button -->
                     <button class="navbar-toggler collapsed navicon justify-content-end" type="button"
                         data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
