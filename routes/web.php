@@ -1,5 +1,9 @@
 <?php
 
+use App\Livewire\AboutArea;
+use App\Livewire\Contact;
+use App\Livewire\HomeArea;
+use App\Livewire\Service;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', HomeArea::class);
+Route::get('/about', AboutArea::class);
+Route::get('/services', Service::class);
+Route::get('/contact', Contact::class);

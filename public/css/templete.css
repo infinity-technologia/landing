@@ -18,6 +18,11 @@
 	font-weight: 700;
 }
 /* ==== Content ==== */
+.img-grey{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  	filter: grayscale(100%);
+}
+
 .bg-purple{
 	background-color: #9c34e8;
 }
@@ -265,7 +270,7 @@
     z-index: 1;
     overflow: hidden;
     font-family: 'DIN Condensed Bold';
-    font-size: 250px;
+    font-size: 230px;
     line-height: 220px;
     font-weight: 600;
 	margin-bottom: 0;
